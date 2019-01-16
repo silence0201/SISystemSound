@@ -20,7 +20,7 @@
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    SISystemSound *sound = [[SISystemSound alloc]initWithSoundID:SISystemSoundIDAlarm];
+    SISystemSound *sound = [[SISystemSound alloc]initWithSoundID:SISystemSoundIDSMSReceived1];
     [sound play];
 }
 

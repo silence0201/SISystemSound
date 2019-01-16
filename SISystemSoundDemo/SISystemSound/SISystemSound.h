@@ -7,6 +7,7 @@
 //
 
 #import <AudioToolbox/AudioToolbox.h>
+#import "SISystemSoundID.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -15,18 +16,6 @@ extern NSString *const SISystemSoundsDidPlayNotification;
 
 extern NSString *const SISystemSoundWillPlayNotification;
 extern NSString *const AKSystemSoundDidPlayNotification;
-
-
-typedef NS_ENUM(NSUInteger, SISystemSoundID) {
-    SISystemSoundInvalidID = 0,
-    SISystemSoundIDNewMail = 1000,
-    SISystemSoundIDMailSent = 1001,
-    SISystemSoundIDVoicemailReceived = 1002,
-    SISystemSoundIDReceivedMessage = 1003,
-    SISystemSoundIDSentMessage = 1004,
-    SISystemSoundIDAlarm = 1005,
-    SISystemSoundIDLowPower = 1006,
-};
 
 @interface SISystemSound : NSObject 
 

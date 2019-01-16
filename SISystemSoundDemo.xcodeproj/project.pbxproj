@@ -29,6 +29,7 @@
 		E8301BE621EE27A500414A1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E8301BEE21EE27C100414A1E /* SISystemSound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SISystemSound.h; sourceTree = "<group>"; };
 		E8301BEF21EE27C100414A1E /* SISystemSound.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SISystemSound.m; sourceTree = "<group>"; };
+		E863BA6521EF6C8C003EEB2E /* SISystemSoundID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SISystemSoundID.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +81,7 @@
 			children = (
 				E8301BEE21EE27C100414A1E /* SISystemSound.h */,
 				E8301BEF21EE27C100414A1E /* SISystemSound.m */,
+				E863BA6521EF6C8C003EEB2E /* SISystemSoundID.h */,
 			);
 			path = SISystemSound;
 			sourceTree = "<group>";
