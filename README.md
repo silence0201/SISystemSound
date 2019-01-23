@@ -9,4 +9,5 @@
 
 
 ## SISystemSound
-SIPassWordKeyBoard is available under the MIT license. See the LICENSE file for more info.
+
+SISystemSound is available under the MIT license. See the LICENSE file for more info.
